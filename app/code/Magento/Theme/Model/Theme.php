@@ -113,6 +113,7 @@ class Theme extends \Magento\Framework\Model\AbstractModel implements ThemeInter
         \Magento\Framework\View\Design\Theme\ImageFactory $imageFactory,
         \Magento\Framework\View\Design\Theme\Validator $validator,
         \Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory,
+        \Magento\Framework\Session\SessionManager $sessionManager,
         \Magento\Theme\Model\ResourceModel\Theme $resource = null,
         ThemeCollection $resourceCollection = null,
         array $data = [],
